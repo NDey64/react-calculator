@@ -1,0 +1,34 @@
+.keyboard-bg {
+	background-color: #858694;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 1 0 auto;
+}
+
+.keyboard-row {
+	width:100%;
+	margin-bottom: 1px;
+	display: flex;
+	flex: auto;
+}
+
+.keyboard-row > button {
+	display: inline-block;
+	width: 25%;
+	background-color: #e0e0e0;
+	border: 0;
+	font-size: 1.5rem;
+	margin: 0 1px 0 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+#zero {
+	width: 50%;
+}
+
+.keyboard-row > button:last-child {
+	background-color: #f5923e;
+	color: white;
+}
